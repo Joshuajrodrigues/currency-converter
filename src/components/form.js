@@ -1,12 +1,12 @@
-import React,{useEffect,useState} from "react"
+import React,{useState} from "react"
 import "./form.css"
 
 export default function Form(){
     const[result,setResult]=useState("")
     const[fromCurr,setFromCurr]=useState(null)
     const[toCurr,setToCurr]=useState(null)
-    const[amt,setAmt]=useState(1)
-    const[curr,setCurr]=useState([])
+    const[amt,setAmt]=useState(0)
+    
 
  
 
